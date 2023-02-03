@@ -84,8 +84,7 @@
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="#" class="nav-item nav-link active">Home</a>
                 <a href="#process" class="nav-item nav-link">Processo</a>
-                <a href="#about" class="nav-item nav-link">Sobre</a>
-                <a href="#solutions" class="nav-item nav-link">Soluções</a>
+                <a href="#about" class="nav-item nav-link">Sobre</a>             
                 <!-- <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu rounded-0 rounded-bottom m-0">
@@ -97,6 +96,7 @@
                     </div>
                 </div> -->
                 <a href="#contact" class="nav-item nav-link">Contato</a>
+                <a href="#solutions" class="nav-item nav-link">Soluções</a>
             </div>
             <a href="/login" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Fazer login<i class="fa-solid fa-right-to-bracket ms-3"></i></a>
         </div>
@@ -157,7 +157,7 @@
     <!-- Header End -->
 
     <!-- Service Start -->
-    <div class="container-xxl py-5" id="process">
+    <div class="container-xxl py-5 mt-5 mb-5" id="process">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <p class="d-inline-block border rounded-pill py-1 px-4">Processo</p>
@@ -180,7 +180,7 @@
                         </div>
                         <h4 class="mb-3">Solicitação</h4>
                         <p class="mb-4">Todo processo é feito online. Basta informar o valor que você precisa, alguns dados e escolher a melhor opção de parcelamento..</p>
-                        <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+                        <!-- <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a> -->
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -199,7 +199,7 @@
                         </div>
                         <h4 class="mb-3">Análise</h4>
                         <p class="mb-4">Para sua segurança, faremos uma breve e rápida análise de crédito e das suas informações pessoais.</p>
-                        <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+                        <!-- <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a> -->
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -218,7 +218,7 @@
                         </div>
                         <h4 class="mb-3">Formalização</h4>
                         <p class="mb-4">Após aprovado, você recebe o contrato para assinatura por e-mail. Com tudo certo, sua clínica será autorizada a fazer seu procedimento.</p>
-                        <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+                        <!-- <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a> -->
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
@@ -237,7 +237,7 @@
                         </div>
                         <h4 class="mb-3">Pagamento</h4>
                         <p class="mb-4">Você terá um prazo de até 90 dias para realizar seu tratamento. Depois de concluído, enviaremos os boletos de pagamento para você. Simples assim!</p>
-                        <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+                        <!-- <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a> -->
                     </div>
                 </div>
                 <!-- <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -267,7 +267,7 @@
 
 
     <!-- About Start -->
-    <div class="container-xxl py-5" id="about">
+    <div class="container-xxl mt-5 mb-5 py-5" id="about">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
@@ -295,7 +295,7 @@
 
 
     <!-- Team Start
-    <div class="container-xxl py-5">
+    <div class="container-xxl mt-5 mb-5 py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <p class="d-inline-block border rounded-pill py-1 px-4">Doctors</p>
@@ -373,7 +373,7 @@
 
 
     <!-- Appointment Start -->
-    <div class="container-xxl py-5" id="contact">
+    <div class="container-xxl mt-5 mb-5 py-5" id="contact">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -395,46 +395,46 @@
                         </div>
                         <div class="ms-4">
                             <p class="mb-2">Email</p>
-                            <h5 class="mb-0">info@example.com</h5>
+                            <h5 class="mb-0">contato@skalarbank.com</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="bg-light rounded h-100 d-flex align-items-center p-5">
+                    <div class="bg-primary form rounded h-100 d-flex align-items-center p-5">
                         <form>
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
                                     <div class="form-floating mb-3">
-                                        <input type="text" class="form-control border-0" placeholder="Nome" style="height: 55px;">
+                                        <input type="text" class="form-control" placeholder="Nome" style="height: 55px;">
                                         <label for="floatingInput">Nome</label>
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <div class="form-floating mb-3">
-                                        <input type="email" class="form-control border-0" placeholder="Email" style="height: 55px;">
+                                        <input type="email" class="form-control" placeholder="Email" style="height: 55px;">
                                         <label for="floatingInput">Email</label>
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <div class="form-floating mb-3">
-                                        <input type="text" class="form-control border-0" placeholder="Celular" style="height: 55px;">
+                                        <input type="text" class="form-control" placeholder="Celular" style="height: 55px;">
                                         <label for="floatingInput">Celular</label>
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <div class="form-floating mb-3">
-                                        <input type="text" class="form-control border-0" placeholder="Cargo" style="height: 55px;">
+                                        <input type="text" class="form-control" placeholder="Cargo" style="height: 55px;">
                                         <label for="floatingInput">Cargo</label>
                                     </div>
                                 </div>
-                                <div class="col-12 col-sm-6">
+                                <div class="col-12 col-sm-12">
                                     <div class="form-floating mb-3">
-                                        <input type="text" class="form-control border-0" placeholder="Empresa" style="height: 55px;">
+                                        <input type="text" class="form-control" placeholder="Empresa" style="height: 55px;">
                                         <label for="floatingInput">Empresa</label>
                                     </div>
                                 </div>
                                 <!-- <div class="col-12 col-sm-6">
-                                    <select class="form-select border-0" style="height: 55px;">
+                                    <select class="form-select" style="height: 55px;">
                                         <option selected>Choose Doctor</option>
                                         <option value="1">Doctor 1</option>
                                         <option value="2">Doctor 2</option>
@@ -443,21 +443,21 @@
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <div class="date" id="date" data-target-input="nearest">
-                                        <input type="text" class="form-control border-0 datetimepicker-input" placeholder="Choose Date" data-target="#date" data-toggle="datetimepicker" style="height: 55px;">
+                                        <input type="text" class="form-control datetimepicker-input" placeholder="Choose Date" data-target="#date" data-toggle="datetimepicker" style="height: 55px;">
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <div class="time" id="time" data-target-input="nearest">
-                                        <input type="text" class="form-control border-0 datetimepicker-input" placeholder="Choose Date" data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
+                                        <input type="text" class="form-control datetimepicker-input" placeholder="Choose Date" data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
                                     </div>
                                 </div> -->
                                 <div class="col-12">
                                     <div class="form-floating mb-3">
-                                        <textarea class="form-control border-0" rows="5" placeholder="Describe your problem"></textarea>
+                                        <textarea class="form-control" rows="5" placeholder="Describe your problem"></textarea>
                                         <label for="floatingInput">Alguma Observação?</label>
                                     </div>
                                     <div class="col-12">
-                                        <button class="btn btn-primary w-100 py-3" type="submit">Enviar</button>
+                                        <button class="btn btn-light w-100 py-3" type="submit">Enviar</button>
                                     </div>
                                 </div>
                             </div>
@@ -477,49 +477,45 @@
                     <div class="p-lg-5 ps-lg-0">
                         <p class="d-inline-block border rounded-pill text-light py-1 px-4">Soluções</p>
                         <h1 class="text-white mb-4">Soluções ideais para sua clínica!</h1>
-                        <p class="text-white mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                        <h3 class="text-white mb-4 pb-2">Por que a Skalarbank é a ideal pra sua clínica?</h3>
                         <div class="row g-4">
                             <div class="col-6">
                                 <div class="d-flex align-items-center">
                                     <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light" style="width: 55px; height: 55px;">
-                                        <i class="fa fa-user-md text-primary"></i>
+                                        <i class="fa-solid fa-chart-line text-primary"></i>
                                     </div>
                                     <div class="ms-4">
-                                        <p class="text-white mb-2">Experience</p>
-                                        <h5 class="text-white mb-0">Doctors</h5>
+                                        <h5 class="text-white mb-2">Aumenta os procedimentos de sua clínicas</h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="d-flex align-items-center">
                                     <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light" style="width: 55px; height: 55px;">
-                                        <i class="fa fa-check text-primary"></i>
+                                        <i class="fa-solid fa-divide text-primary"></i>
                                     </div>
                                     <div class="ms-4">
-                                        <p class="text-white mb-2">Quality</p>
-                                        <h5 class="text-white mb-0">Services</h5>
+                                        <h5 class="text-white mb-2">Realiza pagamentos parcelados</h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="d-flex align-items-center">
                                     <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light" style="width: 55px; height: 55px;">
-                                        <i class="fa fa-comment-medical text-primary"></i>
+                                        <i class="fa-solid fa-credit-card text-primary"></i>
                                     </div>
                                     <div class="ms-4">
-                                        <p class="text-white mb-2">Positive</p>
-                                        <h5 class="text-white mb-0">Consultation</h5>
+                                        <h5 class="text-white mb-2">Atende pacientes sem limite no cartão de crédito</h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="d-flex align-items-center">
                                     <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light" style="width: 55px; height: 55px;">
-                                        <i class="fa fa-headphones text-primary"></i>
+                                        <i class="fa-solid fa-notes-medical text-primary"></i>
                                     </div>
                                     <div class="ms-4">
-                                        <p class="text-white mb-2">24 Hours</p>
-                                        <h5 class="text-white mb-0">Support</h5>
+                                        <h5 class="text-white mb-2">Atende procedimentos sem suporte do plano de saúde</h5>
                                     </div>
                                 </div>
                             </div>
@@ -538,7 +534,7 @@
 
 
     <!-- Testimonial Start -->
-    <!-- <div class="container-xxl py-5">
+    <!-- <div class="container-xxl mt-5 mb-5 py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <p class="d-inline-block border rounded-pill py-1 px-4">Testimonial</p>
@@ -576,44 +572,23 @@
 
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid bg-dark text-light footer mt-1 pt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Address</h5>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                <div class="col-lg-6 text-center col-md-6">
+                    <h1 class="text-light mb-4">Endereço</h1>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>R. Cel. Luís Americano, 265 - Vila Azevedo, São Paulo - SP, 03308-020</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>contato@skalarbank.com</p>
+                    <div class="d-flex text-center row pt-5">
+                        <div class="col-3"><a class="btn text-center w-75 btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a> </div>
+                        <div class="col-3"><a class="btn text-center w-75 btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a> </div>
+                        <div class="col-3"><a class="btn text-center w-75 btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a> </div>
+                        <div class="col-3"><a class="btn text-center w-75 btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a> </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Services</h5>
-                    <a class="btn btn-link" href="">Cardiology</a>
-                    <a class="btn btn-link" href="">Pulmonary</a>
-                    <a class="btn btn-link" href="">Neurology</a>
-                    <a class="btn btn-link" href="">Orthopedics</a>
-                    <a class="btn btn-link" href="">Laboratory</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Quick Links</h5>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Newsletter</h5>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
+                <div class="col-lg-6 col-md-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d563.7121591177407!2d-46.57411377774457!3d-23.542344287297553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5f8cc4736ea5%3A0x23b89bc77a3875e2!2sLabMovel!5e0!3m2!1spt-BR!2sbr!4v1675431077268!5m2!1spt-BR!2sbr" class="rounded w-100" height="350" style="border:3px inset #0463FA;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>

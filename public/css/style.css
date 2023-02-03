@@ -388,10 +388,8 @@
     transition: .5s;
 }
 
-.form-floating:hover {
-    border: #0463FA 1px solid;
-    border-radius: 8px;
-    transition: .5s;
+.form{
+    border: #0463FA 5px ridge;
 }
 
 body .form-floating:hover {
@@ -496,7 +494,6 @@ body .form-floating:hover {
 /*** Footer ***/
 .footer .btn.btn-social {
     margin-right: 5px;
-    width: 35px;
     height: 35px;
     display: flex;
     align-items: center;
