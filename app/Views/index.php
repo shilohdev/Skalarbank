@@ -98,7 +98,7 @@
                 </div> -->
                 <a href="#contact" class="nav-item nav-link">Contato</a>
             </div>
-            <a href="#contact" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Fazer login<i class="fa-solid fa-right-to-bracket ms-3"></i></a>
+            <a href="/login" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Fazer login<i class="fa-solid fa-right-to-bracket ms-3"></i></a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -379,7 +379,7 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <p class="d-inline-block border rounded-pill py-1 px-4">Contato</p>
                     <h1 class="mb-4">Mande um contato para nós!</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <p class="mb-4">Prencha o formulário e nossa equipe irá atende-lo o mais rápido possível!</p>
                     <div class="bg-light rounded d-flex align-items-center p-5 mb-4">
                         <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white" style="width: 55px; height: 55px;">
                             <i class="fa fa-phone-alt text-primary"></i>
